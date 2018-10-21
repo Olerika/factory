@@ -1,0 +1,193 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"name":  "Доходный Плюс",
+			"title": "Доходный Плюс",
+			"deposit-type": "common",
+			"currency": "UAH",
+			"vendor_id": 1,
+			"amount": [1000, null],
+			"investors-group": ["fiz"],
+			"replenish": true,
+			"partial-removal": false,
+			"early-withdrawal": false,
+			"capitalization": true,
+			"prolongation": true,
+			"interest-payment": "monthly",
+			"accrued-interest": ["card"],
+			"online-registration": false,
+			"promo-label": {
+				"ru": "Доходный депозит",
+				"uk": "Прибутковий депозит"
+			},
+			"promo-label-description": {
+				"ru": "Депозит с высокими процентными ставками",
+				"uk": "Депозит с высокими процентными ставками"
+			},
+			"last-update": "2018-11-05T08:15:30-05:00",	
+			"date-created":	"2017-11-05T08:15:30-05:00",
+			"active": true,
+			"show-in-catalog": true,
+			"skus": [
+				{
+					"deposit-rate": 10.00,
+					"deposit-term": [30, null]
+				},
+				{
+					"deposit-rate": 13.50,
+					"deposit-term": [90, null]
+				},
+				{
+					"deposit-rate": 14.00,
+					"deposit-term": [180, null]
+				},
+				{
+					"deposit-rate": 14.25,
+					"deposit-term": [270, null]
+				},
+				{
+					"deposit-rate": 14.50,
+					"deposit-term": [13, null]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name":  "222Доходный Плюс",
+			"title": "22Доходный Плюс",
+			"deposit-type": "common",
+			"currency": "UAH",
+			"vendor_id": 1,
+			"amount": [1000, null],
+			"investors-group": ["fiz"],
+			"replenish": true,
+			"partial-removal": false,
+			"early-withdrawal": false,
+			"capitalization": true,
+			"prolongation": true,
+			"interest-payment": "monthly",
+			"accrued-interest": ["card", "account"],
+			"online-registration": false,
+			"last-update": "2018-11-05T08:15:30-05:00",	
+			"date-created":	"2017-11-05T08:15:30-05:00",
+			"active": true,
+			"show-in-catalog": true,
+			"skus": [
+				{
+					"deposit-rate": 12.25,
+					"deposit-term": [90, null]
+				},
+				{
+					"deposit-rate": 12.75,
+					"deposit-term": [180, null]
+				},
+				{
+					"deposit-rate": 13.00,
+					"deposit-term": [270, null]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name":  "Мобильный депозит",
+			"title": "Мобильный депозит",
+			"deposit-type": "common",
+			"currency": "UAH",
+			"vendor_id": 1,
+			"amount": [100, null],
+			"investors-group": ["fiz"],
+			"replenish": true,
+			"partial-removal": false,
+			"early-withdrawal": false,
+			"capitalization": true,
+			"prolongation": true,
+			"interest-payment": "monthly",
+			"accrued-interest": ["card", "account"],
+			"online-registration": false,
+			"last-update": "2018-11-05T08:15:30-05:00",	
+			"date-created":	"2017-11-05T08:15:30-05:00",
+			"active": true,
+			"show-in-catalog": true,
+			"skus": [
+				{
+					"deposit-rate": 8.00,
+					"deposit-term": [1, null]
+				},
+				{
+					"deposit-rate": 9.00,
+					"deposit-term": [1, null]
+				},
+				{
+					"deposit-rate": 10.00,
+					"deposit-term": [1, null]
+				},
+				{
+					"deposit-rate": 12.00,
+					"deposit-term": [1, null]
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name":  "Срочный вклад",
+			"title": "Срочный вклад",
+			"deposit-type": "bonus",
+			"currency": "UAH",
+			"vendor_id": 1,
+			"amount": [50000, 1000000],
+			"investors-group": ["fiz", "pensioner"],
+			"replenish": true,
+			"partial-removal": true,
+			"early-withdrawal": true,
+			"capitalization": true,
+			"prolongation": true,
+			"interest-payment": "monthly",
+			"accrued-interest": ["card", "account"],
+			"online-registration": false,
+			"special-offers": {
+				"ru": "",
+				"uk": ""
+			},
+			"promo-label": {
+				"ru": "Доходний",
+				"uk": "Прибутковість"
+			},
+			"promo-label-description": {
+				"ru": "Специальный продукт с повышенной % ставкой для пользователей Минфин",
+				"uk": "Спеціальний продукт з підвищеною% ставкою для користувачів Мінфін"
+			},
+			"bonus-type": "bonus",
+			"promotional-status": "active",	
+			"promotional-bonus": {
+				"ru": "",
+				"uk": ""
+			},
+			"raffle-description-short":  {
+				"ru": "",
+				"uk": ""
+			},
+			"last-update": "2018-11-05T08:15:30-05:00",	
+			"date-created":	"2017-11-05T08:15:30-05:00",
+			"active": true,
+			"show-in-catalog": true,
+			"skus": [
+				{
+					"deposit-rate": 5.00,
+					"deposit-term": [360, null],
+					"bonus-percent": 0.90
+				},
+				{
+					"deposit-rate": 5.00,
+					"deposit-term": [180, null],
+					"bonus-percent": 0.60
+				},
+				{
+					"deposit-rate": 3.75,
+					"deposit-term": [270, null],
+					"bonus-percent": 0.30
+				}
+			]
+		}
+	]
+}
