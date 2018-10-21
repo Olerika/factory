@@ -9,19 +9,28 @@ class Sku {
     setDepositRate = value => {
         this.depositRate = value;
     };
+
     getDepositRate = () => this.depositRate;
 
     setDepositTerm = value => {
         this.depositTerm = value;
     };
+
     getDepositTerm = () => this.depositTerm;
+
 
 }
 
 class Product {
     constructor(apiResponseData) {
         this.setName(apiResponseData.name);
+        this.setSkus(apiResponseData.skus)
     }
+    
+    setSkus = skuArray => { 
+        this.skus = skuArray.map(item => new Sku(item));
+    }
+    
     setName = value => {
         this.name = value;
     };
